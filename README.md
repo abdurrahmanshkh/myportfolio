@@ -90,7 +90,7 @@ Feel free to reach out to me via any of the platforms below:
 
 ## Links
 
-- [Portfolio Website](https://abdurrahmanshkh.pages.dev) (Replace with actual link once deployed)
+- [Portfolio Website](https://abdurrahmanshkh.pages.dev)
 
 ## License
 
