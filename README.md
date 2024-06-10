@@ -51,3 +51,15 @@ To run the project locally, follow these steps:
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or find any issues, please open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please reach out via the contact section on the [website](https://abdurrahmanshkh.pages.dev/#contact).
+
+---
+
+Thank you for visiting the repository!
