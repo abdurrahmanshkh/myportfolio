@@ -30,10 +30,10 @@ Visit the live website [here](https://abdurrahmanshkh.pages.dev/).
 To run the project locally, follow these steps:
 
 1. Clone the project
-   ```bash
-  git clone https://github.com/abdurrahmanshkh/myportfolio 
-
-2. Go to the project directory
+  ```bash
+  git  clone  https://github.com/abdurrahmanshkh/myportfolio
+  ```
+3. Go to the project directory
   ```bash
   cd  devstar
   ```
