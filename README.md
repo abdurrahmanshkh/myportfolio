@@ -31,8 +31,7 @@ To run the project locally, follow these steps:
 
 1. Clone the project
    ```bash
-  git  clone  https://github.com/hannansatopay/devstar
-  ```
+  git clone https://github.com/abdurrahmanshkh/myportfolio 
 
 2. Go to the project directory
   ```bash
@@ -42,7 +41,6 @@ To run the project locally, follow these steps:
 3. Install dependencies
   ```bash
   npm  install
-  
   ```
 
 4. Start the server
