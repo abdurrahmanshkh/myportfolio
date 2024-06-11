@@ -14,7 +14,7 @@
 			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
 			color="light"
 		>
-			<img width="30" height="30" src="src/routes/icons/linkedin.png" alt="LinkedIn" />
+			<img width="30" height="30" src="linkedin.png" alt="LinkedIn" />
 			<div class="pl-1">LinkedIn</div>
 		</Button>
 
@@ -24,7 +24,7 @@
 			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
 			color="light"
 		>
-			<img width="30" height="30" src="src/routes/icons/github.png" alt="GitHub" />
+			<img width="30" height="30" src="github.png" alt="GitHub" />
 			<div class="pl-1">GitHub</div>
 		</Button>
 
@@ -34,7 +34,7 @@
 			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
 			color="light"
 		>
-			<img width="30" height="30" src="src/routes/icons/email.png" alt="Email" />
+			<img width="30" height="30" src="email.png" alt="Email" />
 			<div class="pl-1">Email</div>
 		</Button>
 
@@ -44,7 +44,7 @@
 			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
 			color="light"
 		>
-			<img width="30" height="30" src="src/routes/icons/whatsapp.png" alt="WhatsApp" />
+			<img width="30" height="30" src="whatsapp.png" alt="WhatsApp" />
 			<div class="pl-1">WhatsApp</div>
 		</Button>
 
@@ -54,12 +54,12 @@
 			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
 			color="light"
 		>
-			<img width="30" height="30" src="src/routes/icons/telegram.png" alt="Telegram" />
+			<img width="30" height="30" src="telegram.png" alt="Telegram" />
 			<div class="pl-1">Telegram</div>
 		</Button>
 
 		<Button class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500" color="light">
-			<img width="30" height="30" src="src/routes/icons/resume.png" alt="Resume" />
+			<img width="30" height="30" src="resume.png" alt="Resume" />
 			<div class="pl-1">Resume</div>
 			<ChevronDownOutline class="ms-0 h-6 w-6 text-white dark:text-white" />
 		</Button>
@@ -67,11 +67,12 @@
 			<DropdownItem
 				href="https://somaiya0-my.sharepoint.com/:b:/g/personal/as31_somaiya_edu/EVAiSyh5Wa9CiYXg-Nl5HA8BBOzgPv-1O1WuowxGRUNW0Q"
 				target="_blank"
-				class=""
+				class="px-10 text-center"
 				>View
 			</DropdownItem>
 			<DropdownItem
 				href="https://somaiya0-my.sharepoint.com/personal/as31_somaiya_edu/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fas31%5Fsomaiya%5Fedu%2FDocuments%2FPortfolio%2FResume%2Epdf"
+				class="px-10 text-center"
 				>Download
 			</DropdownItem>
 		</Dropdown>
