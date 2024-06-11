@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>MapMyProject</title>
+	<title>Portfolio | Abdur Rehman Shaikh</title>
 </svelte:head>
 
 <div class="app">
