@@ -1,5 +1,5 @@
 <script>
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode, Avatar, Button, Card } from 'flowbite-svelte';
+	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte';
 </script>
 
 <header
@@ -19,7 +19,6 @@
                 <NavLi><a href="#experience">Experience</a></NavLi>
                 <NavLi><a href="#projects">Projects</a></NavLi>
                 <NavLi><a href="#skills">Skills</a></NavLi>
-                <NavLi><a href="#contact">Contact</a></NavLi>
 			</NavUl>
 			<DarkMode />
 		</Navbar>

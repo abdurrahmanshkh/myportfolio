@@ -1,5 +1,5 @@
 <script>
-	import { Footer, FooterCopyright, Navbar } from 'flowbite-svelte';
+	import { Footer, FooterCopyright, Navbar, A } from 'flowbite-svelte';
 </script>
 
 <footer
@@ -8,7 +8,10 @@
 	<div class="max-w-8xl mx-auto w-full px-0 py-2 lg:flex lg:justify-between lg:px-3">
 		<Navbar>
 			<Footer rounded color="form" class="flex w-full items-center justify-center py-3 text-center">
-				<FooterCopyright href="/" by="My Portfolio™" year={2024} />
+				Created by
+				<A class="ml-1 text-gray-700 dark:text-gray-300" href="/">
+					Abdur Rehman Shaikh
+				</A>
 			</Footer>
 		</Navbar>
 	</div>

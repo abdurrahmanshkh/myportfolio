@@ -12,9 +12,10 @@
 
 	<Header />
 
-	<main class="bg-white dark:bg-gray-900" style="min-height: calc(100vh - 145px);">
+	<main class="bg-white dark:bg-gray-900" style="min-height: calc(100vh);">
 		<slot />
 	</main>
 
 	<Footer />
+
 </div>

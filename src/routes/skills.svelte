@@ -1,22 +1,23 @@
 <script>
-	import { Card, Hr } from 'flowbite-svelte';
+	import { AccordionItem } from 'flowbite-svelte';
 </script>
 
-<Card class="mb-10 border-2 border-gray-300 dark:border-gray-700" size="" padding="xl" id="skills">
-	<h5 class="text-2xl font-bold text-gray-900 dark:text-white">Skills</h5>
-	<Hr classHr="my-5 h-1" />
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Key Skills</h5>
+<div class="border-b-2 border-gray-400 dark:border-gray-700" id="skills">
+<AccordionItem>
+	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-white">Skills</span>
+	<h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Key Skills</h5>
 
-	<li>Analytical and Critical Thinking</li>
-	<li>Organization and Time Management</li>
-	<li>Teamwork and Collaboration</li>
-	<li>Communication</li>
-	<li>Problem-solving</li>
+	<li class="mb-1">Analytical and Critical Thinking</li>
+	<li class="mb-1">Organization and Time Management</li>
+	<li class="mb-1">Teamwork and Collaboration</li>
+	<li class="mb-1">Communication</li>
+	<li class="mb-1">Problem-solving</li>
 	<li class="mb-5">Project management</li>
 
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Technical Skills</h5>
+	<h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">Technical Skills</h5>
 
-	<li>Programming languages: Python, C, Go, Java</li>
-	<li>Web Development: HTML, CSS, JavaScript, Sveltekit, React.js, Node.js</li>
-	<li>Database Management: SQL</li>
-</Card>
+	<li class="mb-1">Programming languages: Python, C, Go, Java</li>
+	<li class="mb-1">Web Development: HTML, CSS, JavaScript, Sveltekit, React.js, Node.js</li>
+	<li class="mb-1">Database Management: SQL</li>
+</AccordionItem>
+</div>

@@ -5,13 +5,13 @@
 </script>
 
 <Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl" id="contact">
-	<h5 class="text-2xl font-bold text-gray-900 dark:text-white">Contact</h5>
-	<Hr classHr="my-5 h-1" />
-	<div class="max-w-screen-xl items-center gap-5 lg:grid lg:grid-cols-6">
+	<h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact</h5>
+	<Hr classHr="my-5 h-0.5 bg-gray-400 dark:bg-gray-700" />
+	<div class="items-center gap-5 lg:grid lg:grid-cols-1">
 		<Button
 			href="https://www.linkedin.com/in/abdurrahmanshkh/"
 			target="_blank"
-			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
+			class="border-2"
 			color="light"
 		>
 			<img width="30" height="30" src="linkedin.png" alt="LinkedIn" />
@@ -21,7 +21,7 @@
 		<Button
 			href="https://github.com/abdurrahmanshkh"
 			target="_blank"
-			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
+			class="border-2"
 			color="light"
 		>
 			<img width="30" height="30" src="github.png" alt="GitHub" />
@@ -31,7 +31,7 @@
 		<Button
 			href="mailto:as31@somaiya.edu"
 			target="_blank"
-			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
+			class="border-2"
 			color="light"
 		>
 			<img width="30" height="30" src="email.png" alt="Email" />
@@ -41,7 +41,7 @@
 		<Button
 			href="https://api.whatsapp.com/send?phone=919653332540"
 			target="_blank"
-			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
+			class="border-2"
 			color="light"
 		>
 			<img width="30" height="30" src="whatsapp.png" alt="WhatsApp" />
@@ -51,14 +51,14 @@
 		<Button
 			href="https://t.me/abdurrahmanshkh"
 			target="_blank"
-			class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500"
+			class="border-2"
 			color="light"
 		>
 			<img width="30" height="30" src="telegram.png" alt="Telegram" />
 			<div class="pl-1">Telegram</div>
 		</Button>
 
-		<Button class="m-0 border-2 border-gray-500 px-1.5 py-1.5 dark:border-gray-500" color="light">
+		<Button class="border-2" color="light">
 			<img width="30" height="30" src="resume.png" alt="Resume" />
 			<div class="pl-1">Resume</div>
 			<ChevronDownOutline class="ms-0 h-6 w-6 text-white dark:text-white" />

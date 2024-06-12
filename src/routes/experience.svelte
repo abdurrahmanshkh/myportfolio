@@ -1,54 +1,72 @@
 <script>
-	import { Card, Hr, P } from 'flowbite-svelte';
+	import { Timeline, TimelineItem } from 'flowbite-svelte';
+	import { AccordionItem } from 'flowbite-svelte';
+	import { List, Li } from 'flowbite-svelte';
+
+	const space="   ";
 </script>
 
-<Card
-	class="mb-10 border-2 border-gray-300 dark:border-gray-700"
-	size=""
-	padding="xl"
-	id="experience"
->
-	<h5 class="text-2xl font-bold text-gray-900 dark:text-white">Work Experience</h5>
-	<Hr classHr="my-5 h-1" />
+<div class="border-b-2 border-gray-400 dark:border-gray-700" id="experience">
+<AccordionItem>
+	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-white">Work Experience</span>
+	<Timeline>
+		<TimelineItem title="Bioriidl – Biotechnology Lab" date="Feb 2024 – April 2024">
+			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+                Research Fellow Intern
+            </p>
+			<List>
+				<Li class="mb-1">
+					Contributed to research on prion diseases, focusing on alpha-synuclein aggregation and its role
+					in Parkinson's and Alzheimer's.
+				</Li>
+				<Li class="mb-1">
+					Enhanced algorithms predicting protein structures, contributing to biotechnology advancements.
+				</Li>
+				<Li class="mb-1">
+					Utilized Python for data analysis and algorithm enhancement.
+				</Li>
+			</List>			
+		</TimelineItem>
 
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">
-		IEEE Bombay Section – Al Hansat Solutions
-	</h5>
-	<P class="mb-1 font-bold">Full Stack Developer Intern | Sep 2023 – Nov 2023</P>
+		<TimelineItem title="AY International Pvt. Ltd." date="Dec 2023 – Jan 2024">
+			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+                Web Developer Intern
+            </p>
+			<List>
+				<Li class="mb-1">
+					Led the development of “MapMyProject,” a dynamic project management system.
+				</Li>
+				<Li class="mb-1">
+					Supervised the entire development lifecycle and a talented team, ensuring successful deployment.
+				</Li>
+				<Li class="mb-1">
+					Utilized HTML, CSS, JavaScript for the frontend; Node.js and Svelte for the backend.
+				</Li>
+			</List>
+		</TimelineItem>
 
-	<li>Co-led the development of 'DevStar,' a comprehensive developer toolkit website.</li>
-	<li>
-		Managed and assigned tasks to team members, fostering collaboration and ensuring timely project
-		delivery.
-	</li>
-	<li>
-		Conducted performance evaluations, demonstrating strong leadership and project management
-		skills.
-	</li>
-	<li class="mb-5">
-		Utilized HTML, CSS, and JavaScript for the frontend; Node.js and Svelte for the backend.
-	</li>
+		<TimelineItem title="IEEE Bombay – Al Hansat Solutions" date="Sep 2023 – Nov 2023">
+			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+				Full Stack Developer Intern
+			</p>
+			<List>
+				<Li class="mb-1">
+					Co-led the development of 'DevStar,' a comprehensive developer toolkit website.
+				</Li>
+				<Li class="mb-1">
+					Managed and assigned tasks to team members, fostering collaboration and ensuring timely project
+					delivery.
+				</Li>
+				<Li class="mb-1">
+					Conducted performance evaluations, demonstrating strong leadership and project management
+					skills.
+				</Li>
+				<Li class="mb-1">
+					Utilized HTML, CSS, and JavaScript for the frontend; Node.js and Svelte for the backend.
+				</Li>
+			</List>
+		</TimelineItem>
+	</Timeline>
 
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">AY International Pvt. Ltd.</h5>
-	<P class="mb-1 font-bold">Web Developer Intern | Dec 2023 – Jan 2024</P>
-
-	<li>Led the development of “MapMyProject,” a dynamic project management system.</li>
-	<li>
-		Supervised the entire development lifecycle and a talented team, ensuring successful deployment.
-	</li>
-	<li class="mb-5">
-		Utilized HTML, CSS, JavaScript for the frontend; Node.js and Svelte for the backend.
-	</li>
-
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">Bioriidl – Biotechnology Lab</h5>
-	<P class="mb-1 font-bold">Research Fellow Intern | Feb 2024 – Apr 2024</P>
-
-	<li>
-		Contributed to research on prion diseases, focusing on alpha-synuclein aggregation and its role
-		in Parkinson's and Alzheimer's.
-	</li>
-	<li>
-		Enhanced algorithms predicting protein structures, contributing to biotechnology advancements.
-	</li>
-	<li>Utilized Python for data analysis and algorithm enhancement.</li>
-</Card>
+</AccordionItem>
+</div>

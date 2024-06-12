@@ -1,24 +1,25 @@
 <script>
-	import { Card, Hr} from 'flowbite-svelte';
+	import { AccordionItem } from 'flowbite-svelte';
 </script>
 
-<Card class="mb-10 border-2 border-gray-300 dark:border-gray-700" size="" padding="xl" id="projects">
-	<h5 class="text-2xl font-bold text-gray-900 dark:text-white">Projects</h5>
-	<Hr classHr="my-5 h-1" />
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">
+<div class="border-b-2 border-gray-400 dark:border-gray-700" id="projects">
+<AccordionItem>
+	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-white">Projects</span>
+	<h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
 		PhenoSense – Ayurvedic Prakriti Assessment Website
 	</h5>
-	<li>Led the development of PhenoSense, modernizing Ayurvedic constitution assessment.</li>
-	<li>Built a user-friendly platform with detailed dosha profiles and printable reports.</li>
+	<li class="mb-1">Led the development of PhenoSense, modernizing Ayurvedic constitution assessment.</li>
+	<li class="mb-1">Built a user-friendly platform with detailed dosha profiles and printable reports.</li>
 	<li class="mb-5">Technologies Used: HTML, CSS, JavaScript</li>
 
-	<h5 class="mb-1 text-xl font-bold text-gray-900 dark:text-white">
+	<h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">
 		GradeUpNow - Aptitude Preparation Portal
 	</h5>
-	<li>
+	<li class="mb-1">
 		Led the development of GradeUpNow, an aptitude preparation portal designed to motivate
 		students.
 	</li>
-	<li>Created an interactive platform with quizzes, challenges, and leaderboards.</li>
-	<li>Technologies Used: GoLang, HTML, CSS, JavaScript</li>
-</Card>
+	<li class="mb-1">Created an interactive platform with quizzes, challenges, and leaderboards.</li>
+	<li class="mb-1">Technologies Used: GoLang, HTML, CSS, JavaScript</li>
+</AccordionItem>
+</div>
