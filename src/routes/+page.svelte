@@ -22,7 +22,7 @@
 				</Accordion>
 			</Card>
 		</div>
-		<div class="lg:col-span-1 md:col-span-1">
+		<div class="lg:col-span-1 md:col-span-1 pb-10">
 			<Contact />
 		</div>
 	</div>

@@ -36,7 +36,7 @@
 </script>
 
 <Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl">
-<div class="grid grid-cols-1 gap-10">
+<div class="grid grid-cols-1 gap-10 mx-auto">
 
 	<Listgroup active class="w-40 border-2 border-gray-300 dark:border-gray-700">
 		<h3 class="p-2 text-center text-2xl font-semibold text-gray-900 dark:text-gray-100">Resume</h3>
