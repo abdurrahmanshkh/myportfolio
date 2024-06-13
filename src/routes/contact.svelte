@@ -2,80 +2,76 @@
 	import { Card, Hr, Button } from 'flowbite-svelte';
 	import { Dropdown, DropdownItem } from 'flowbite-svelte';
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
+	import { Listgroup, ListgroupItem, } from 'flowbite-svelte';
+	import { DownloadOutline, EnvelopeOutline, FilePdfOutline, GithubSolid, LinkedinSolid, PaperPlaneOutline, WhatsappSolid } from 'flowbite-svelte-icons';
+
+	function openLinkedIn() {
+		window.open("https://www.linkedin.com/in/abdurrahmanshkh/", "_blank");
+	}
+
+	function openGitHub() {
+		window.open("https://github.com/abdurrahmanshkh", "_blank");
+	}
+
+	function openEmail() {
+		window.open("mailto:as31@somaiya.edu", "_blank");
+	}
+
+	function openWhatsApp() {
+		window.open("https://api.whatsapp.com/send?phone=919653332540", "_blank");
+	}
+
+	function openTelegram() {
+		window.open("https://t.me/abdurrahmanshkh", "_blank");
+	}
+
+	function openViewResume() {
+		window.open("https://somaiya0-my.sharepoint.com/:b:/g/personal/as31_somaiya_edu/EVAiSyh5Wa9CiYXg-Nl5HA8BBOzgPv-1O1WuowxGRUNW0Q", "_blank");
+	}
+
+	function openDownloadResume() {
+		window.open("https://somaiya0-my.sharepoint.com/personal/as31_somaiya_edu/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fas31%5Fsomaiya%5Fedu%2FDocuments%2FPortfolio%2FResume%2Epdf", "_blank");
+	}
+
 </script>
 
-<Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl" id="contact">
-	<h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact</h5>
-	<Hr classHr="my-5 h-0.5 bg-gray-400 dark:bg-gray-700" />
-	<div class="items-center gap-5 grid grid-col-1 lg:mx-0 md:mx-auto">
-		
-		<Button
-			href="https://www.linkedin.com/in/abdurrahmanshkh/"
-			target="_blank"
-			class="border-2"
-			color="light"
-		>
-			<img width="30" height="30" src="linkedin.png" alt="LinkedIn" />
-			<div class="pl-1">LinkedIn</div>
-		</Button>
+<Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl">
+<div class="grid grid-cols-1 gap-10">
 
-		<Button
-			href="https://github.com/abdurrahmanshkh"
-			target="_blank"
-			class="border-2"
-			color="light"
-		>
-			<img width="30" height="30" src="github.png" alt="GitHub" />
-			<div class="pl-1">GitHub</div>
-		</Button>
+	<Listgroup active class="w-40 border-2 border-gray-300 dark:border-gray-700">
+		<h3 class="p-2 text-center text-2xl font-semibold text-gray-900 dark:text-gray-100">Resume</h3>
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openViewResume}>
+			<FilePdfOutline/>View
+		</ListgroupItem>
 
-		<Button
-			href="mailto:as31@somaiya.edu"
-			target="_blank"
-			class="border-2"
-			color="light"
-		>
-			<img width="30" height="30" src="email.png" alt="Email" />
-			<div class="pl-1">Email</div>
-		</Button>
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openDownloadResume}>
+			<DownloadOutline/>Download
+		</ListgroupItem>
 
-		<Button
-			href="https://api.whatsapp.com/send?phone=919653332540"
-			target="_blank"
-			class="border-2"
-			color="light"
-		>
-			<img width="30" height="30" src="whatsapp.png" alt="WhatsApp" />
-			<div class="pl-1">WhatsApp</div>
-		</Button>
+	</Listgroup>
 
-		<Button
-			href="https://t.me/abdurrahmanshkh"
-			target="_blank"
-			class="border-2"
-			color="light"
-		>
-			<img width="30" height="30" src="telegram.png" alt="Telegram" />
-			<div class="pl-1">Telegram</div>
-		</Button>
+	<Listgroup active class="w-40 border-2 border-gray-300 dark:border-gray-700">
+		<h3 class="p-2 text-center text-2xl font-semibold text-gray-900 dark:text-gray-100">Contact</h3>
 
-		<Button class="border-2" color="light">
-			<img width="30" height="30" src="resume.png" alt="Resume" />
-			<div class="pl-1">Resume</div>
-			<ChevronDownOutline class="ms-0 h-6 w-6 text-white dark:text-white" />
-		</Button>
-		<Dropdown>
-			<DropdownItem
-				href="https://somaiya0-my.sharepoint.com/:b:/g/personal/as31_somaiya_edu/EVAiSyh5Wa9CiYXg-Nl5HA8BBOzgPv-1O1WuowxGRUNW0Q"
-				target="_blank"
-				class="px-10 text-center"
-				>View
-			</DropdownItem>
-			<DropdownItem
-				href="https://somaiya0-my.sharepoint.com/personal/as31_somaiya_edu/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fas31%5Fsomaiya%5Fedu%2FDocuments%2FPortfolio%2FResume%2Epdf"
-				class="px-10 text-center"
-				>Download
-			</DropdownItem>
-		</Dropdown>
-	</div>
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openLinkedIn}>
+			<LinkedinSolid/>LinkedIn
+		</ListgroupItem>
+
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openGitHub}>
+			<GithubSolid/> GitHub
+		</ListgroupItem>
+
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openEmail}>
+			<EnvelopeOutline/> Email
+		</ListgroupItem>
+
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openWhatsApp}>
+			<WhatsappSolid/> WhatsApp
+		</ListgroupItem>
+
+		<ListgroupItem class="text-base font-semibold gap-2 py-2.5 text-gray-700 dark:text-gray-300" on:click={openTelegram}>
+			<PaperPlaneOutline/> Telegram
+		</ListgroupItem>
+	</Listgroup>
+</div>		
 </Card>
