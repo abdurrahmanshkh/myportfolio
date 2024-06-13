@@ -22,7 +22,7 @@
 				<Li class="mb-1">
 					Enhanced algorithms predicting protein structures, contributing to biotechnology advancements.
 				</Li>
-				<Li class="mb-1">
+				<Li class="mb-0">
 					Utilized Python for data analysis and algorithm enhancement.
 				</Li>
 			</List>			
@@ -39,7 +39,7 @@
 				<Li class="mb-1">
 					Supervised the entire development lifecycle and a talented team, ensuring successful deployment.
 				</Li>
-				<Li class="mb-1">
+				<Li class="mb-0">
 					Utilized HTML, CSS, JavaScript for the frontend; Node.js and Svelte for the backend.
 				</Li>
 			</List>
@@ -61,7 +61,7 @@
 					Conducted performance evaluations, demonstrating strong leadership and project management
 					skills.
 				</Li>
-				<Li class="mb-1">
+				<Li class="mb-0">
 					Utilized HTML, CSS, and JavaScript for the frontend; Node.js and Svelte for the backend.
 				</Li>
 			</List>
