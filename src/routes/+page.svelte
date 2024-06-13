@@ -10,20 +10,20 @@
 
 <main class="container mx-auto py-10">
 	
-	<div class="gap-10 lg:grid lg:grid-cols-7">
-	<div class="col-span-5">
-		<Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl">
-			<Accordion flush>
-				<About/>
-				<Education />
-				<Experience />
-				<Projects />
-				<Skills />
-			</Accordion>
-		</Card>
-	</div>
-	<div class="col-span-2">
-		<Contact />
-	</div>
+	<div class="gap-10 lg:grid lg:grid-cols-7 md:grid md:grid-cols-1">
+		<div class="lg:col-span-5 md:col-span-1">
+			<Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl">
+				<Accordion flush>
+					<About/>
+					<Education />
+					<Experience />
+					<Projects />
+					<Skills />
+				</Accordion>
+			</Card>
+		</div>
+		<div class="lg:col-span-2 md:col-span-1">
+			<Contact />
+		</div>
 	</div>
 </main>

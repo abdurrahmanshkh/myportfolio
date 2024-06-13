@@ -1,14 +1,20 @@
 <script>
-  import { Card } from 'flowbite-svelte';
+  import {Listgroup } from "flowbite-svelte";
+  import { DownloadSolid, EnvelopeOpenSolid, FilePdfSolid, GithubSolid, LinkedinSolid, PaperPlaneSolid, WhatsappSolid } from 'flowbite-svelte-icons';
+  let icons = [
+    { name: 'LinkedIn', icon: LinkedinSolid },
+    { name: 'GitHub', icon: GithubSolid },
+    { name: 'Email', icon: EnvelopeOpenSolid },
+    { name: 'WhatsApp', icon: WhatsappSolid},
+    { name: 'Telegram', icon: PaperPlaneSolid},
+    { name: 'View Resume', icon:FilePdfSolid},
+    { name: 'Download Resume', icon: DownloadSolid},
+  ];
+  // <svelte:component this={IconSolid} icon={item.icon} class="w-3 h-3 me-2.5" />
 </script>
-<Card>
-		<h1 class="m-5 text-5xl font-semibold tracking-tight leading-none text-gray-900 dark:text-gray-100">
-			Abdur Rehman Shaikh
-        </h1>
-    <p class=" font-normal text-gray-600 dark:text-gray-300">
-    Enthusiastic and dedicated engineering student with proficiency in Python, C, Go, and Java.
-    Experienced in full stack web development and project management. Proven ability in leading
-    teams and delivering innovative projects, such as DevStar and MapMyProject. Seeking to leverage
-    technical skills and passion for software development in a dynamic industry setting.
-    </p>
-</Card>
+
+
+<Listgroup active items={icons} let:item class="w-48" on:click={console.log}>
+  <svelte:component this={item.icon} class="w-4 h-4 me-2.5"/>
+  {item.name}
+</Listgroup>

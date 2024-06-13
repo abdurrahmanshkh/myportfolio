@@ -7,7 +7,8 @@
 <Card class="border-2 border-gray-300 dark:border-gray-700" size="" padding="xl" id="contact">
 	<h5 class="text-2xl font-semibold text-gray-900 dark:text-white">Contact</h5>
 	<Hr classHr="my-5 h-0.5 bg-gray-400 dark:bg-gray-700" />
-	<div class="items-center gap-5 lg:grid lg:grid-cols-1">
+	<div class="items-center gap-5 grid grid-col-1 lg:mx-0 md:mx-auto">
+		
 		<Button
 			href="https://www.linkedin.com/in/abdurrahmanshkh/"
 			target="_blank"
