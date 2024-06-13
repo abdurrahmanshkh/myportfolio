@@ -2,7 +2,7 @@
 	import { AccordionItem } from 'flowbite-svelte';
 </script>
 
-<div class="border-b-2 border-gray-400 dark:border-gray-700" id="projects">
+<div class="border-b-2 border-gray-300 dark:border-gray-700" id="projects">
 <AccordionItem>
 	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-white">Projects</span>
 	<h5 class="mb-2 text-xl font-bold text-gray-900 dark:text-white">

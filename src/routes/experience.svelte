@@ -2,16 +2,14 @@
 	import { Timeline, TimelineItem } from 'flowbite-svelte';
 	import { AccordionItem } from 'flowbite-svelte';
 	import { List, Li } from 'flowbite-svelte';
-
-	const space="   ";
 </script>
 
-<div class="border-b-2 border-gray-400 dark:border-gray-700" id="experience">
+<div class="border-b-2 border-gray-300 dark:border-gray-700" id="experience">
 <AccordionItem>
-	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-white">Work Experience</span>
+	<span slot="header" class="text-2xl font-semibold text-gray-900 dark:text-gray-100">Work Experience</span>
 	<Timeline>
 		<TimelineItem title="Bioriidl – Biotechnology Lab" date="Feb 2024 – April 2024">
-			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+			<p class="mb-2 text-base font-bold text-gray-700 dark:text-gray-300">
                 Research Fellow Intern
             </p>
 			<List>
@@ -29,7 +27,7 @@
 		</TimelineItem>
 
 		<TimelineItem title="AY International Pvt. Ltd." date="Dec 2023 – Jan 2024">
-			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+			<p class="mb-2 text-base font-bold text-gray-700 dark:text-gray-300">
                 Web Developer Intern
             </p>
 			<List>
@@ -46,7 +44,7 @@
 		</TimelineItem>
 
 		<TimelineItem title="IEEE Bombay – Al Hansat Solutions" date="Sep 2023 – Nov 2023">
-			<p class="mb-2 text-base font-bold text-gray-500 dark:text-gray-400">
+			<p class="mb-2 text-base font-bold text-gray-700 dark:text-gray-300">
 				Full Stack Developer Intern
 			</p>
 			<List>
