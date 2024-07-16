@@ -17,7 +17,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/adapter-cloudflare": "^4.4.0",
-		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/kit": "^2.5.18",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
 		"@types/eslint": "^8.56.0",
 		"autoprefixer": "^10.4.19",
@@ -39,10 +39,10 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"appwrite": "^15.0.0",
-		"jspdf": "^2.5.1",
 		"@popperjs/core": "^2.11.8",
+		"appwrite": "^15.0.0",
 		"flowbite-svelte-icons": "^0.4.5",
+		"jspdf": "^2.5.1",
 		"tailwind-merge": "^2.2.0"
 	}
 }

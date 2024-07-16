@@ -1,5 +1,23 @@
 <script>
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, DarkMode } from 'flowbite-svelte';
+
+	export let openSection="hhv";
+	
+	function openAbout(){
+		openSection="about";
+	}
+	function openEduction(){
+		openSection="education";
+	}
+	function openExperience(){
+		openSection="experience";
+	}
+	function openProjects(){
+		openSection="projects";
+	}
+	function openSkills(){
+		openSection="skills";
+	}
 </script>
 
 <header
@@ -14,11 +32,11 @@
 			</NavBrand>
 			<NavHamburger />
 			<NavUl class="text-xl font-bold">
-                <NavLi><a href="#about">About</a></NavLi>
-                <NavLi><a href="#education">Education</a></NavLi>
-                <NavLi><a href="#experience">Experience</a></NavLi>
-                <NavLi><a href="#projects">Projects</a></NavLi>
-                <NavLi><a href="#skills">Skills</a></NavLi>
+                <NavLi on:click={openAbout}><a href="#about">About</a></NavLi>
+                <NavLi on:click={openEduction}><a href="#education">Education</a></NavLi>
+                <NavLi on:click={openExperience}><a href="#experience">Experience</a></NavLi>
+                <NavLi on:click={openProjects}><a href="#projects">Projects</a></NavLi>
+                <NavLi on:click={openSkills}><a href="#skills">Skills</a></NavLi>
 			</NavUl>
 			<DarkMode />
 		</Navbar>

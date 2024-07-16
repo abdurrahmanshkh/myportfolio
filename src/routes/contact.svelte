@@ -1,7 +1,4 @@
 <script>
-	import { Card, Hr, Button } from 'flowbite-svelte';
-	import { Dropdown, DropdownItem } from 'flowbite-svelte';
-	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 	import { Listgroup, ListgroupItem, } from 'flowbite-svelte';
 	import { DownloadOutline, EnvelopeOutline, FilePdfOutline, GithubSolid, LinkedinSolid, PaperPlaneOutline, WhatsappSolid } from 'flowbite-svelte-icons';
 
